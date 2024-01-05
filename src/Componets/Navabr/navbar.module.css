@@ -1,0 +1,51 @@
+.NavContainer {
+  padding: 20px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 100%;
+  color: var(--white-color);
+}
+.listStyles {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.span1 {
+  font-family: var(--main-font-family);
+  font-weight: bold;
+  font-size: 32px;
+  color: var(--color-white);
+
+  /* color: #ffffff; */
+}
+.span1:hover {
+  color: var(--color-yellow);
+  cursor: pointer;
+}
+li:hover {
+  color: var(--color-yellow);
+  cursor: pointer;
+}
+.logos {
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+.Btn {
+  display: flex;
+
+  color: black;
+  background-color: var(--color-yellow);
+  font: 15px !important;
+}
+.showHide {
+  /* display: flex ; */
+  align-items: baseline;
+  gap: 50px;
+}

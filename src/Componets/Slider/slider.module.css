@@ -1,0 +1,18 @@
+.animation{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: 2;
+    animation-direction: alternate; 
+}
+.backgroundImage{
+    padding-top: 100px;
+    background-image: url('../../assets/burgers.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+@media only screen and (max-width: 600px) {
+    .backgroundImage {
+        background-position: end;
+    }
+  }

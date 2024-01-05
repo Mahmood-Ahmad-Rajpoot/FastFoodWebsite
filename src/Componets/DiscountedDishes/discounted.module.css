@@ -1,0 +1,19 @@
+.applyOnImage{
+    transition: transform .3s;
+ }
+ .applyOnImage:hover{
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+}
+.applyCartModal{
+    transition: transform .3s;
+ }
+ .applyCartModal:hover{
+    -ms-transform: scale(1.04); /* IE 9 */
+    -webkit-transform: scale(1.04); /* Safari 3-8 */
+    transform: scale(1.04); 
+}
+.antModal {
+    padding: 0;
+}

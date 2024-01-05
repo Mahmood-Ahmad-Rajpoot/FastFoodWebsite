@@ -1,0 +1,16 @@
+ .cartStructure h3 p {
+
+    font-size: 1rem;
+    color: grey;
+    font-weight: 500;
+ }
+ .cartStructure{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+ }
+ .carttotal h1{
+    font-size: 1.2rem;
+    color: black;
+    font-weight: 600;
+ }
